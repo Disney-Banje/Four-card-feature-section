@@ -93,7 +93,14 @@ body {
 .intro--subtitle {
     font-size: 1.5625rem; 
     font-weight: 600;
-    color: var(--neutral-Very-Dark-Blue);
+    /* color: var(--neutral-Very-Dark-Blue); */
+    background: #EA5353;
+    background: -webkit-linear-gradient(to right, #EA5353 22%, #45D3D3 52%, #FCAF4A 82%);
+    background: -moz-linear-gradient(to right, #EA5353 22%, #45D3D3 52%, #FCAF4A 82%);
+    background: linear-gradient(to right, #EA5353 22%, #45D3D3 52%, #FCAF4A 82%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 16px;
 }
 
@@ -164,5 +171,22 @@ body {
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: minmax(100px, auto);
         gap: 1.25rem;
+    }
+
+    .card {
+        transition: all 150ms ease-in-out;
+    }
+
+    .card:hover {
+        transform: translateY(-0.625rem);
+        cursor: pointer;
+    }
+
+    .card:hover .widget {
+        transition: transform 850ms ease-in-out;
+    }
+
+    .card:hover .widget {
+        transform: rotateY(360deg);
     }
 }
