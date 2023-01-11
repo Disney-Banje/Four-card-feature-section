@@ -1,3 +1,30 @@
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Import google fonts ................... Global font.
+ * Global...............Globally-available variables and config.
+ *
+ * LAYOUT 
+ * Containers...............Layout styling for different containers.
+ *
+ * TYPOGRAPHY
+ * Fonts ..................... Setting font size, and weight for different.
+ *
+ * MEDIA QUERIES
+ * Responsiveness................Generating adequate media queries for much better responsive performance.
+ *
+ */
+
+
+
+
+ 
+/*------------------------------------*\
+  #SETTINGS
+\*------------------------------------*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
 *,
@@ -29,7 +56,14 @@ body {
     line-height: 1.5;
 }
 
-/* LAYOUT */
+
+
+
+
+/*------------------------------------*\
+  #LAYOUT 
+\*------------------------------------*/
+
 
 .container {
     width: 85vw;
@@ -81,7 +115,13 @@ body {
 }
 
 
-/* TYPOGRAPHY */
+
+
+
+/*------------------------------------*\
+  #TYPOGRAPHY
+\*------------------------------------*/
+
 
 .intro--title {
     font-weight: 200;
@@ -122,7 +162,14 @@ body {
     color: var(--neutral-Grayish-Blue);
 }
 
-/* MEDIA QUERIES */
+
+
+
+
+/*------------------------------------*\
+  #MEDIA QUERIES
+\*------------------------------------*/
+
 
 @media screen and (min-width: 769px) {
 
