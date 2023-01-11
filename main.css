@@ -220,6 +220,8 @@ body {
         gap: 1.25rem;
     }
 
+
+    /* animation for the icons they turn 360 degrees when hovered over */
     .card {
         transition: all 150ms ease-in-out;
     }
